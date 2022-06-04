@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementor,counter,form</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400;500;600;700&family=Kdam+Thmor+Pro&family=Lobster&family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <!-- font Awesome cdn -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- bootstrap link -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+ <div class="row">
+   <div class="col-lg-3">
+     <div class="card">
+       <div class="card-header header">
+         <div class="row">
+           <div class="col-lg-3">
+            <i class="fas fa-bars"></i>
+           </div>
+           <div class="col-lg-7">
+            <h2 > Edit Elementor</h2>
+           </div>
+           <div class="col-lg-2">
+            <i class="fas fa-th"></i>
+           </div>
+         </div>
+        
+       </div>
+       <div class="layot">
+        <div class="row">
+          <div class="col-lg-4">
+            <h4 class="text-center">Layout</h4>
+          </div>
+          <div class="col-lg-4">
+            <h4 class="text-center">Style</h4>
+          </div>
+          <div class="col-lg-4">
+            <h4 class="text-center">Advance</h4>
+          </div>
+        </div>
+       </div>
+       <hr>
+       <div class="main-part ms-4">
+         <div class="row my-3 ">
+           <div class="col-lg-4">
+           <div class="h">
+            <i id="headicon" class="fas fa-heading icon"></i>
+            <p>heading</p>
+           </div>
+           </div>
+           <div class="col-lg-4">
+           <div id="alignment-icon-div" class="h">
+            <i  class="fas fa-align-justify icon"></i><br>
+            <p class="align">Text-Align</p>
+           </div>
+           </div>
+           <div class="col-lg-4">
+            <div id="textsizediv" class="h">
+              <div class="relation">
+                <img id="textsize" src="https://i.postimg.cc/zDLPW8qZ/download-18-removebg-preview.png" alt="">
+              </div>
+              
+              
+            </div>
+           </div>
+         </div>
+
+         <div class="row my-3">
+          <div class="col-lg-4">
+          <div id="bold" class="h">
+            <i class="fas fa-bold icon"></i>
+            <p> F_weight</p>
+          </div>
+          </div>
+          <div class="col-lg-4">
+          <div id="color" class="h">
+            <i class="fas fa-palette icon"></i>
+            <p>Color </p>
+          </div>
+          </div>
+          <div class="col-lg-4">
+           <div id="fontfamily" class="h">
+            <i class="fas fa-font icon"></i>
+            <p>Font</p>
+           </div>
+          </div>
+
+          <div class="col-lg-4 my-3">
+            <div id="fontcounter" class="h">
+              <i class="fas fa-globe-asia icon"></i>
+             <p>Counter</p>
+            </div>
+           </div>
+
+           <div class="col-lg-4 my-3">
+            <div id="swatch" class="h">
+              <i class="fas fa-stopwatch icon"></i>
+             <p class="watch">StopWatch</p>
+            </div>
+           </div>
+
+           <div class="col-lg-4 my-3">
+            <div id="wform" class="h">
+              <i class="fab fa-wpforms icon"></i>
+             <p>Form</p>
+            </div>
+           </div>
+        </div>
+
+       </div>
+
+             <!-- input-part -->
+
+ <div class="input-part ms-3">
+  <div class="form-group head">
+    <label for="heading">Heading</label>
+    <input id="heading" class="form-control" type="text">
+   </div>
+   </div>
+   <div class="form-group text-align ms-3">
+     <label for="align">Text Align</label><br>
+     <label for="left">
+       <input class="mr-3 align1" name="align" id="left" value="left" type="radio">
+       left
+     </label>
+     <label for="center">
+       <input class="mr-3 align1" name="align" id="center" value="center" type="radio">
+       center
+     </label>
+     <label for="right">
+       <input class="mr-3 align1" name="align" id="right" value="right" type="radio">
+       right
+     </label>
+   </div>
+   <div class="form-group my-font">
+     <label for="">Font-Size</label>
+     <div class="font shadow-lg">
+      <input id="font_size" class="w-100" min="5" max="500" step="10" value="20" type="range">
+
+     </div>
+     
+   </div>
+   <div class="form-group text-center picker">
+     <label  for="">Color: </label>
+     <input id="color_picker"  type="color">
+   </div>
+   <div class="form-group family ">
+     <label for="">Font Family</label><br>
+     <select class="form-control" name="" id="ff">
+       <option value="">-select-</option>
+       <option value="impact">impact</option>
+       <option value="Kdam Thmor Pro">Kdam Thmor Pro</option>
+       <option value="Dancing Script">Dancing Script</option>
+       <option value="Anton">Anton</option>
+       <option value="Poppins">Poppins</option>
+      <option value="roboto">roboto</option>
+     </select>
+   </div>
+
+   <div class="form-group fweight">
+     <label for="">Font weight</label><br>
+     <select class="form-control" name="" id="fw">
+       <option value="">-select-</option>
+       <option value="300">300</option>
+       <option value="500">500</option>
+       <option value="600">600</option>
+       <option value="700">700</option>
+       <option value="800">800</option>
+       <option value="900">900</option>
+     </select>
+   </div>
+
+   <a href="#" class="btn  btn-lg save">Save Now</a>
+ </div>
+
+
+
+
+     </div>
+
+ 
+
+
+
+
+
+   </div>
+   <div class="col-lg-9">
+     <section>
+     <div class="row myrow">
+      <h2>Add section</h2>
+      
+     </div>
+     </section>
+     <h1 class="plus"></h1>
+
+   </div>
+
+
+   <!-- =========================== counter ==============================-->
+
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-4"></div>
+       <div class="col-lg-8">
+         
+         <div class="card couterWithBell">
+           <div class="card-header">
+            <h2 class="count">Counter with Bell</h2>
+           </div> 
+           <div class="card-body">
+             <div class="btn-group d-flex">
+               <a id="start" class="btn btn-success me-3 button" href="#">Add</a>
+               <a id="back" class="btn btn-danger btn-lg me-3 button" href="#">Back</a>
+               <a id="reset" class="btn btn-warning btn-lg me-3 button" href="#">Reset</a>
+
+
+             </div>
+            
+             
+           </div>
+           <div class="card-footer">
+            <h2 class="output text-center">0</h2>
+            <p id="underoutput" class="text-center"></p>
+
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+
+
+    <!--=================== stop-watch=================== -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-8">
+
+        <div class="card sw">
+          <div class="card-header">
+            <h2 class="count">Stop Watch</h2>
+          </div>
+          <div class="card-body">
+            <div class="baton text-center">
+              <a id="count_start" class="btn btn-success btn-lg me-3 mybtn" href="#">Start Count</a>
+              <a id="count_stop" class="btn btn-danger btn-lg me-3 mybtn" href="#">Stop </a>
+              <a id="remove" class="btn btn-warning btn-lg me-3 mybtn" href="#">Remove</a>
+            </div>
+            <div class="card-footer text-center my-2">
+              <h2 id="watchoutput">0</h2>
+              <p id="stopp"></p>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- form-validation ========================= -->
+
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+          <div class="card my-form">
+            <div class="card-header">
+              <h2 class="count">User-form</h2>
+              <div class="msg">
+                
+              </div>
+            </div>
+            <div class="card-body">
+              
+              
+              <form id="user_form" action="#">
+               
+                <div class="form-group">
+                  <label for="">Name</label>
+                <input id="uname" class="form-control" type="text"> 
+                <p class="name_req ms-5"></p>
+                </div>
+                <div class="form-group">
+                  <label for="">Email</label>
+                  <input id="uemail" class="form-control" type="text">
+                  <p class="email_req ms-5"></p>
+                </div>
+                <div class="form-group">
+                  <label for="">cell</label>
+                  <input id="ucell" class="form-control" type="text">
+                  <p class="cell_req ms-5"></p>
+                </div>
+                <div class="form-group">
+                  <label for="">username</label>
+                  <input id="uuser" class="form-control" type="text">
+                  <p class="user_req ms-5"></p>
+                </div><br>
+                <button class="btn btn-primary btn-lg"  type="submit">Submit</button>
+
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3"></div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+  
+
+   
+
+
+
+  
+
+
+
+
+
+
+   <audio id="tone" src="./sharmin-thank-you-so-much-for-using-my-elementer-page-builder.mp3"></audio>
+   <audio id="ring" src="./audio/mixkit-arcade-game-jump-coin-216.wav"></audio>
+   <audio id="bell" src="./audio/notification.mp3"></audio>
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+    <script src="functions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

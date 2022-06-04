@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.header{
+    background-color: #87003e;
+    color: #fff;
+    font-size: 22px;
+    padding: 20px;
+    margin-bottom: 10px;
+   
+}
+
+.h{
+    background-color: beige;
+    height: 50px;
+    width: 50px;
+    padding: 50px;
+    box-shadow: 0px 0px 5px 5px #ccc;
+    display: flex;
+  
+
+}
+.icon{
+   font-size: 40px;
+   position: relative;
+   right: 20px;
+   top: -20px;
+   cursor: pointer;
+
+}
+p{
+    position: relative;
+    top: 20px;
+    right: 59px;
+}
+.myrow h2{
+    width: 500px;
+    margin:100px auto;
+    color: #ccc;
+    font-size: 50px;
+    margin-left: 450px;
+}
+.myrow{
+    border: 1px dotted #000;
+    width: 1200px;
+    margin:100px auto;
+    position: relative;
+    left: 500px;
+    top: -400px;
+    display: none;
+    font-size: 30px;
+}
+.plus{
+    width: 50px;
+    margin-top: -500px;
+    margin-left: 1050px;
+    font-size: 80px;
+   
+   
+    padding: 10px 90px;
+}
+#heading{
+    padding: 20px;
+    
+}
+label{
+    font-size: 20px;
+   font-weight: 600;
+   margin-top: 20px;
+}
+.head{
+    display: none;
+}
+.align{
+    font-size: 12px;
+    margin-top: -6px;
+    margin-left: 5px;
+    font-weight: 700;
+}
+.text-align{
+    display: none;
+}
+.relation img {
+    position: relative;
+    right: 59px;
+    top: -55px;
+    cursor: pointer;
+}
+.font{
+    background-color: beige;
+    padding: 10px;
+    
+}
+.my-font{
+    display: none;
+    cursor: pointer;
+}
+.picker{
+    display: none;
+}
+select{
+    font-size: 30px;
+    font-family: Anton;
+}
+.family{
+    display: none;
+}
+.fweight{
+    display: none;
+}
+.save{
+    background-color: #87003e;
+    color: #fff;
+    font-family: poppins;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.watch {
+    position: relative;
+    right: 72px;
+}
+.count{
+    background-color: #87003e;
+    width: 300px;
+    color: #fff;
+    font-size: 25px;
+    font-family: poppins;
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+    
+}
+.button{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: poppins;
+    border-radius: 8px;
+    padding: 10px;
+}
+.output{
+    font-size: 250px;
+    font-weight: 900;
+}
+#underoutput{
+    font-size: 50px;
+    font-family: poppins;
+    font-weight: 600;
+}
+.couterWithBell{
+    display: none;
+}
+.mybtn{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: poppins;
+    border-radius: 8px;
+
+}
+
+#watchoutput{
+    font-size: 250px;
+    font-weight: 900;
+
+}
+#stopp{
+    font-size: 50px;
+    font-family: poppins;
+    font-weight: 600;
+
+}
+.sw{
+    display: none;
+}
+.msg{
+    margin-left: 54px;
+}
+
+.my-form{
+    display: none;
+}
+
+
